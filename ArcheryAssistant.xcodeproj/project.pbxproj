@@ -1,0 +1,843 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1229605A244801890006228D /* ViewEditScoreCardTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12296059244801890006228D /* ViewEditScoreCardTableViewController.swift */; };
+		123A73BE2454EEA100F86E6F /* InputTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 123A73BD2454EEA100F86E6F /* InputTableViewCell.swift */; };
+		12616BCA2453810400B2A5A7 /* SmollTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12616BC92453810400B2A5A7 /* SmollTableViewController.swift */; };
+		12616BCC24538B4E00B2A5A7 /* ScoresTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12616BCB24538B4E00B2A5A7 /* ScoresTableViewCell.swift */; };
+		12931FB22469E2130007C76C /* MyBowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12931FB12469E2130007C76C /* MyBowViewController.swift */; };
+		129D6579244E5DC700AFDE0B /* ScoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 129D6578244E5DC700AFDE0B /* ScoreViewController.swift */; };
+		12AA4BFA2465CEDC00203F56 /* LastPracticeChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12AA4BF92465CEDC00203F56 /* LastPracticeChartViewController.swift */; };
+		12AA4BFC2465CF5500203F56 /* OverAllChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12AA4BFB2465CF5500203F56 /* OverAllChartViewController.swift */; };
+		12C1F3002487F922007C093D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 12C1F2FF2487F922007C093D /* GoogleService-Info.plist */; };
+		12D5E50B2468D39000A21645 /* Bow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12D5E50A2468D39000A21645 /* Bow.swift */; };
+		12E2D117244699DC002FD73A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E2D116244699DC002FD73A /* AppDelegate.swift */; };
+		12E2D119244699DC002FD73A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E2D118244699DC002FD73A /* SceneDelegate.swift */; };
+		12E2D11E244699DC002FD73A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12E2D11C244699DC002FD73A /* Main.storyboard */; };
+		12E2D120244699E3002FD73A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12E2D11F244699E3002FD73A /* Assets.xcassets */; };
+		12E2D123244699E3002FD73A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12E2D121244699E3002FD73A /* LaunchScreen.storyboard */; };
+		12E2D12E244699E4002FD73A /* ArcheryAssistantTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E2D12D244699E4002FD73A /* ArcheryAssistantTests.swift */; };
+		12E2D139244699E4002FD73A /* ArcheryAssistantUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E2D138244699E4002FD73A /* ArcheryAssistantUITests.swift */; };
+		12E2D14A24469F16002FD73A /* Arrow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E2D14924469F16002FD73A /* Arrow.swift */; };
+		12E2D14C24469F30002FD73A /* Serie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E2D14B24469F30002FD73A /* Serie.swift */; };
+		12E2D14E24469F57002FD73A /* ScoreCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E2D14D24469F57002FD73A /* ScoreCard.swift */; };
+		12FAD872248812E2007B1FCB /* ConfigViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12FAD871248812E2007B1FCB /* ConfigViewController.swift */; };
+		12FAD874248812FB007B1FCB /* LogRegViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12FAD873248812FB007B1FCB /* LogRegViewController.swift */; };
+		12FAD876248833ED007B1FCB /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12FAD875248833ED007B1FCB /* User.swift */; };
+		12FF521924491364004E9516 /* ScoreTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12FF521824491364004E9516 /* ScoreTableViewController.swift */; };
+		12FF521B24491F8C004E9516 /* ScoreTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12FF521A24491F8C004E9516 /* ScoreTableViewCell.swift */; };
+		287C7F3FD0962C10973359B6 /* Pods_ArcheryAssistantTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76AA7586A2BB8297C824E405 /* Pods_ArcheryAssistantTests.framework */; };
+		86496BD8B03E61AE31B0D186 /* Pods_ArcheryAssistant.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6363CC530F7E9582128B235B /* Pods_ArcheryAssistant.framework */; };
+		AF513ED86F28DA140AE4D048 /* Pods_ArcheryAssistant_ArcheryAssistantUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33CA3B9A304DF2F85CB8D9D1 /* Pods_ArcheryAssistant_ArcheryAssistantUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		12E2D12A244699E4002FD73A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 12E2D10B244699DC002FD73A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 12E2D112244699DC002FD73A;
+			remoteInfo = ArcheryAssistant;
+		};
+		12E2D135244699E4002FD73A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 12E2D10B244699DC002FD73A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 12E2D112244699DC002FD73A;
+			remoteInfo = ArcheryAssistant;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0238B2D284E8CEE6BAB96060 /* Pods-ArcheryAssistant.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArcheryAssistant.release.xcconfig"; path = "Target Support Files/Pods-ArcheryAssistant/Pods-ArcheryAssistant.release.xcconfig"; sourceTree = "<group>"; };
+		12296059244801890006228D /* ViewEditScoreCardTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewEditScoreCardTableViewController.swift; sourceTree = "<group>"; };
+		123A73BD2454EEA100F86E6F /* InputTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputTableViewCell.swift; sourceTree = "<group>"; };
+		12616BC92453810400B2A5A7 /* SmollTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmollTableViewController.swift; sourceTree = "<group>"; };
+		12616BCB24538B4E00B2A5A7 /* ScoresTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoresTableViewCell.swift; sourceTree = "<group>"; };
+		12931FB12469E2130007C76C /* MyBowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyBowViewController.swift; sourceTree = "<group>"; };
+		129D6578244E5DC700AFDE0B /* ScoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreViewController.swift; sourceTree = "<group>"; };
+		12AA4BF92465CEDC00203F56 /* LastPracticeChartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LastPracticeChartViewController.swift; sourceTree = "<group>"; };
+		12AA4BFB2465CF5500203F56 /* OverAllChartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverAllChartViewController.swift; sourceTree = "<group>"; };
+		12C1F2FF2487F922007C093D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		12D5E50A2468D39000A21645 /* Bow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bow.swift; sourceTree = "<group>"; };
+		12E2D113244699DC002FD73A /* ArcheryAssistant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArcheryAssistant.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		12E2D116244699DC002FD73A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		12E2D118244699DC002FD73A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		12E2D11D244699DC002FD73A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		12E2D11F244699E3002FD73A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		12E2D122244699E3002FD73A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		12E2D124244699E3002FD73A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12E2D129244699E4002FD73A /* ArcheryAssistantTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArcheryAssistantTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		12E2D12D244699E4002FD73A /* ArcheryAssistantTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArcheryAssistantTests.swift; sourceTree = "<group>"; };
+		12E2D12F244699E4002FD73A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12E2D134244699E4002FD73A /* ArcheryAssistantUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArcheryAssistantUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		12E2D138244699E4002FD73A /* ArcheryAssistantUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArcheryAssistantUITests.swift; sourceTree = "<group>"; };
+		12E2D13A244699E4002FD73A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12E2D14924469F16002FD73A /* Arrow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Arrow.swift; sourceTree = "<group>"; };
+		12E2D14B24469F30002FD73A /* Serie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Serie.swift; sourceTree = "<group>"; };
+		12E2D14D24469F57002FD73A /* ScoreCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreCard.swift; sourceTree = "<group>"; };
+		12FAD871248812E2007B1FCB /* ConfigViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigViewController.swift; sourceTree = "<group>"; };
+		12FAD873248812FB007B1FCB /* LogRegViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogRegViewController.swift; sourceTree = "<group>"; };
+		12FAD875248833ED007B1FCB /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		12FF521824491364004E9516 /* ScoreTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreTableViewController.swift; sourceTree = "<group>"; };
+		12FF521A24491F8C004E9516 /* ScoreTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreTableViewCell.swift; sourceTree = "<group>"; };
+		2EDE55059E5F68891A92F3DB /* Pods-ArcheryAssistantTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArcheryAssistantTests.debug.xcconfig"; path = "Target Support Files/Pods-ArcheryAssistantTests/Pods-ArcheryAssistantTests.debug.xcconfig"; sourceTree = "<group>"; };
+		33CA3B9A304DF2F85CB8D9D1 /* Pods_ArcheryAssistant_ArcheryAssistantUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ArcheryAssistant_ArcheryAssistantUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4718FBDBC00358BD1EEA6F57 /* Pods-ArcheryAssistant-ArcheryAssistantUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArcheryAssistant-ArcheryAssistantUITests.debug.xcconfig"; path = "Target Support Files/Pods-ArcheryAssistant-ArcheryAssistantUITests/Pods-ArcheryAssistant-ArcheryAssistantUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		6363CC530F7E9582128B235B /* Pods_ArcheryAssistant.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ArcheryAssistant.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		76AA7586A2BB8297C824E405 /* Pods_ArcheryAssistantTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ArcheryAssistantTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8959BAC4FF7A136266DD4C78 /* Pods-ArcheryAssistant-ArcheryAssistantUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArcheryAssistant-ArcheryAssistantUITests.release.xcconfig"; path = "Target Support Files/Pods-ArcheryAssistant-ArcheryAssistantUITests/Pods-ArcheryAssistant-ArcheryAssistantUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B3A9556ED11CBE2471469012 /* Pods-ArcheryAssistantTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArcheryAssistantTests.release.xcconfig"; path = "Target Support Files/Pods-ArcheryAssistantTests/Pods-ArcheryAssistantTests.release.xcconfig"; sourceTree = "<group>"; };
+		DFBD491A2E344C63C9E2B721 /* Pods-ArcheryAssistant.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArcheryAssistant.debug.xcconfig"; path = "Target Support Files/Pods-ArcheryAssistant/Pods-ArcheryAssistant.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		12E2D110244699DC002FD73A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86496BD8B03E61AE31B0D186 /* Pods_ArcheryAssistant.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12E2D126244699E4002FD73A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				287C7F3FD0962C10973359B6 /* Pods_ArcheryAssistantTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12E2D131244699E4002FD73A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF513ED86F28DA140AE4D048 /* Pods_ArcheryAssistant_ArcheryAssistantUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		12E2D10A244699DC002FD73A = {
+			isa = PBXGroup;
+			children = (
+				12E2D115244699DC002FD73A /* ArcheryAssistant */,
+				12E2D12C244699E4002FD73A /* ArcheryAssistantTests */,
+				12E2D137244699E4002FD73A /* ArcheryAssistantUITests */,
+				12E2D114244699DC002FD73A /* Products */,
+				80D9A65D08110F9FCEC7846E /* Pods */,
+				AA1EF72185F571F4C7A8C389 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		12E2D114244699DC002FD73A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				12E2D113244699DC002FD73A /* ArcheryAssistant.app */,
+				12E2D129244699E4002FD73A /* ArcheryAssistantTests.xctest */,
+				12E2D134244699E4002FD73A /* ArcheryAssistantUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		12E2D115244699DC002FD73A /* ArcheryAssistant */ = {
+			isa = PBXGroup;
+			children = (
+				12E2D14624469AE8002FD73A /* Models */,
+				12E2D14724469AFF002FD73A /* Views */,
+				12E2D14824469B13002FD73A /* Controllers */,
+				12E2D116244699DC002FD73A /* AppDelegate.swift */,
+				12C1F2FF2487F922007C093D /* GoogleService-Info.plist */,
+				12E2D118244699DC002FD73A /* SceneDelegate.swift */,
+				12E2D11C244699DC002FD73A /* Main.storyboard */,
+				12E2D11F244699E3002FD73A /* Assets.xcassets */,
+				12E2D121244699E3002FD73A /* LaunchScreen.storyboard */,
+				12E2D124244699E3002FD73A /* Info.plist */,
+			);
+			path = ArcheryAssistant;
+			sourceTree = "<group>";
+		};
+		12E2D12C244699E4002FD73A /* ArcheryAssistantTests */ = {
+			isa = PBXGroup;
+			children = (
+				12E2D12D244699E4002FD73A /* ArcheryAssistantTests.swift */,
+				12E2D12F244699E4002FD73A /* Info.plist */,
+			);
+			path = ArcheryAssistantTests;
+			sourceTree = "<group>";
+		};
+		12E2D137244699E4002FD73A /* ArcheryAssistantUITests */ = {
+			isa = PBXGroup;
+			children = (
+				12E2D138244699E4002FD73A /* ArcheryAssistantUITests.swift */,
+				12E2D13A244699E4002FD73A /* Info.plist */,
+			);
+			path = ArcheryAssistantUITests;
+			sourceTree = "<group>";
+		};
+		12E2D14624469AE8002FD73A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				12E2D14924469F16002FD73A /* Arrow.swift */,
+				12E2D14B24469F30002FD73A /* Serie.swift */,
+				12E2D14D24469F57002FD73A /* ScoreCard.swift */,
+				12D5E50A2468D39000A21645 /* Bow.swift */,
+				12FAD875248833ED007B1FCB /* User.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		12E2D14724469AFF002FD73A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				12931FB12469E2130007C76C /* MyBowViewController.swift */,
+				12AA4BF92465CEDC00203F56 /* LastPracticeChartViewController.swift */,
+				12AA4BFB2465CF5500203F56 /* OverAllChartViewController.swift */,
+				123A73BD2454EEA100F86E6F /* InputTableViewCell.swift */,
+				12616BC92453810400B2A5A7 /* SmollTableViewController.swift */,
+				12616BCB24538B4E00B2A5A7 /* ScoresTableViewCell.swift */,
+				12296059244801890006228D /* ViewEditScoreCardTableViewController.swift */,
+				12FF521824491364004E9516 /* ScoreTableViewController.swift */,
+				12FF521A24491F8C004E9516 /* ScoreTableViewCell.swift */,
+				129D6578244E5DC700AFDE0B /* ScoreViewController.swift */,
+				12FAD871248812E2007B1FCB /* ConfigViewController.swift */,
+				12FAD873248812FB007B1FCB /* LogRegViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		12E2D14824469B13002FD73A /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		80D9A65D08110F9FCEC7846E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DFBD491A2E344C63C9E2B721 /* Pods-ArcheryAssistant.debug.xcconfig */,
+				0238B2D284E8CEE6BAB96060 /* Pods-ArcheryAssistant.release.xcconfig */,
+				4718FBDBC00358BD1EEA6F57 /* Pods-ArcheryAssistant-ArcheryAssistantUITests.debug.xcconfig */,
+				8959BAC4FF7A136266DD4C78 /* Pods-ArcheryAssistant-ArcheryAssistantUITests.release.xcconfig */,
+				2EDE55059E5F68891A92F3DB /* Pods-ArcheryAssistantTests.debug.xcconfig */,
+				B3A9556ED11CBE2471469012 /* Pods-ArcheryAssistantTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		AA1EF72185F571F4C7A8C389 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6363CC530F7E9582128B235B /* Pods_ArcheryAssistant.framework */,
+				33CA3B9A304DF2F85CB8D9D1 /* Pods_ArcheryAssistant_ArcheryAssistantUITests.framework */,
+				76AA7586A2BB8297C824E405 /* Pods_ArcheryAssistantTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		12E2D112244699DC002FD73A /* ArcheryAssistant */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12E2D13D244699E4002FD73A /* Build configuration list for PBXNativeTarget "ArcheryAssistant" */;
+			buildPhases = (
+				452F2D9BC15B595F53A669D2 /* [CP] Check Pods Manifest.lock */,
+				12E2D10F244699DC002FD73A /* Sources */,
+				12E2D110244699DC002FD73A /* Frameworks */,
+				12E2D111244699DC002FD73A /* Resources */,
+				39C9EC17B73EB0DD07A77C91 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ArcheryAssistant;
+			productName = ArcheryAssistant;
+			productReference = 12E2D113244699DC002FD73A /* ArcheryAssistant.app */;
+			productType = "com.apple.product-type.application";
+		};
+		12E2D128244699E4002FD73A /* ArcheryAssistantTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12E2D140244699E4002FD73A /* Build configuration list for PBXNativeTarget "ArcheryAssistantTests" */;
+			buildPhases = (
+				5A74C24316C8AF9A2702F94D /* [CP] Check Pods Manifest.lock */,
+				12E2D125244699E4002FD73A /* Sources */,
+				12E2D126244699E4002FD73A /* Frameworks */,
+				12E2D127244699E4002FD73A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				12E2D12B244699E4002FD73A /* PBXTargetDependency */,
+			);
+			name = ArcheryAssistantTests;
+			productName = ArcheryAssistantTests;
+			productReference = 12E2D129244699E4002FD73A /* ArcheryAssistantTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		12E2D133244699E4002FD73A /* ArcheryAssistantUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12E2D143244699E4002FD73A /* Build configuration list for PBXNativeTarget "ArcheryAssistantUITests" */;
+			buildPhases = (
+				0201F198C65864CC1D1E9FA9 /* [CP] Check Pods Manifest.lock */,
+				12E2D130244699E4002FD73A /* Sources */,
+				12E2D131244699E4002FD73A /* Frameworks */,
+				12E2D132244699E4002FD73A /* Resources */,
+				ACF047A2D273802A428DAF21 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				12E2D136244699E4002FD73A /* PBXTargetDependency */,
+			);
+			name = ArcheryAssistantUITests;
+			productName = ArcheryAssistantUITests;
+			productReference = 12E2D134244699E4002FD73A /* ArcheryAssistantUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		12E2D10B244699DC002FD73A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = exusai;
+				TargetAttributes = {
+					12E2D112244699DC002FD73A = {
+						CreatedOnToolsVersion = 11.4;
+					};
+					12E2D128244699E4002FD73A = {
+						CreatedOnToolsVersion = 11.4;
+						TestTargetID = 12E2D112244699DC002FD73A;
+					};
+					12E2D133244699E4002FD73A = {
+						CreatedOnToolsVersion = 11.4;
+						TestTargetID = 12E2D112244699DC002FD73A;
+					};
+				};
+			};
+			buildConfigurationList = 12E2D10E244699DC002FD73A /* Build configuration list for PBXProject "ArcheryAssistant" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 12E2D10A244699DC002FD73A;
+			productRefGroup = 12E2D114244699DC002FD73A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				12E2D112244699DC002FD73A /* ArcheryAssistant */,
+				12E2D128244699E4002FD73A /* ArcheryAssistantTests */,
+				12E2D133244699E4002FD73A /* ArcheryAssistantUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		12E2D111244699DC002FD73A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12E2D123244699E3002FD73A /* LaunchScreen.storyboard in Resources */,
+				12C1F3002487F922007C093D /* GoogleService-Info.plist in Resources */,
+				12E2D120244699E3002FD73A /* Assets.xcassets in Resources */,
+				12E2D11E244699DC002FD73A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12E2D127244699E4002FD73A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12E2D132244699E4002FD73A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0201F198C65864CC1D1E9FA9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ArcheryAssistant-ArcheryAssistantUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		39C9EC17B73EB0DD07A77C91 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ArcheryAssistant/Pods-ArcheryAssistant-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ArcheryAssistant/Pods-ArcheryAssistant-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ArcheryAssistant/Pods-ArcheryAssistant-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		452F2D9BC15B595F53A669D2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ArcheryAssistant-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5A74C24316C8AF9A2702F94D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ArcheryAssistantTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ACF047A2D273802A428DAF21 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ArcheryAssistant-ArcheryAssistantUITests/Pods-ArcheryAssistant-ArcheryAssistantUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ArcheryAssistant-ArcheryAssistantUITests/Pods-ArcheryAssistant-ArcheryAssistantUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ArcheryAssistant-ArcheryAssistantUITests/Pods-ArcheryAssistant-ArcheryAssistantUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		12E2D10F244699DC002FD73A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12E2D117244699DC002FD73A /* AppDelegate.swift in Sources */,
+				12931FB22469E2130007C76C /* MyBowViewController.swift in Sources */,
+				12FF521924491364004E9516 /* ScoreTableViewController.swift in Sources */,
+				12FF521B24491F8C004E9516 /* ScoreTableViewCell.swift in Sources */,
+				12FAD874248812FB007B1FCB /* LogRegViewController.swift in Sources */,
+				12E2D119244699DC002FD73A /* SceneDelegate.swift in Sources */,
+				12E2D14C24469F30002FD73A /* Serie.swift in Sources */,
+				12FAD872248812E2007B1FCB /* ConfigViewController.swift in Sources */,
+				12AA4BFA2465CEDC00203F56 /* LastPracticeChartViewController.swift in Sources */,
+				12AA4BFC2465CF5500203F56 /* OverAllChartViewController.swift in Sources */,
+				12616BCC24538B4E00B2A5A7 /* ScoresTableViewCell.swift in Sources */,
+				12616BCA2453810400B2A5A7 /* SmollTableViewController.swift in Sources */,
+				12D5E50B2468D39000A21645 /* Bow.swift in Sources */,
+				12E2D14A24469F16002FD73A /* Arrow.swift in Sources */,
+				12E2D14E24469F57002FD73A /* ScoreCard.swift in Sources */,
+				1229605A244801890006228D /* ViewEditScoreCardTableViewController.swift in Sources */,
+				123A73BE2454EEA100F86E6F /* InputTableViewCell.swift in Sources */,
+				129D6579244E5DC700AFDE0B /* ScoreViewController.swift in Sources */,
+				12FAD876248833ED007B1FCB /* User.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12E2D125244699E4002FD73A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12E2D12E244699E4002FD73A /* ArcheryAssistantTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12E2D130244699E4002FD73A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12E2D139244699E4002FD73A /* ArcheryAssistantUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		12E2D12B244699E4002FD73A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 12E2D112244699DC002FD73A /* ArcheryAssistant */;
+			targetProxy = 12E2D12A244699E4002FD73A /* PBXContainerItemProxy */;
+		};
+		12E2D136244699E4002FD73A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 12E2D112244699DC002FD73A /* ArcheryAssistant */;
+			targetProxy = 12E2D135244699E4002FD73A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		12E2D11C244699DC002FD73A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				12E2D11D244699DC002FD73A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		12E2D121244699E3002FD73A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				12E2D122244699E3002FD73A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		12E2D13B244699E4002FD73A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		12E2D13C244699E4002FD73A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		12E2D13E244699E4002FD73A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DFBD491A2E344C63C9E2B721 /* Pods-ArcheryAssistant.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 73K2MXE2TP;
+				INFOPLIST_FILE = ArcheryAssistant/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.exusai.ArcheryAssistant;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		12E2D13F244699E4002FD73A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0238B2D284E8CEE6BAB96060 /* Pods-ArcheryAssistant.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 73K2MXE2TP;
+				INFOPLIST_FILE = ArcheryAssistant/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.exusai.ArcheryAssistant;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		12E2D141244699E4002FD73A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2EDE55059E5F68891A92F3DB /* Pods-ArcheryAssistantTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 73K2MXE2TP;
+				INFOPLIST_FILE = ArcheryAssistantTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.exusai.ArcheryAssistantTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ArcheryAssistant.app/ArcheryAssistant";
+			};
+			name = Debug;
+		};
+		12E2D142244699E4002FD73A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3A9556ED11CBE2471469012 /* Pods-ArcheryAssistantTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 73K2MXE2TP;
+				INFOPLIST_FILE = ArcheryAssistantTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.exusai.ArcheryAssistantTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ArcheryAssistant.app/ArcheryAssistant";
+			};
+			name = Release;
+		};
+		12E2D144244699E4002FD73A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4718FBDBC00358BD1EEA6F57 /* Pods-ArcheryAssistant-ArcheryAssistantUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 73K2MXE2TP;
+				INFOPLIST_FILE = ArcheryAssistantUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.exusai.ArcheryAssistantUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ArcheryAssistant;
+			};
+			name = Debug;
+		};
+		12E2D145244699E4002FD73A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8959BAC4FF7A136266DD4C78 /* Pods-ArcheryAssistant-ArcheryAssistantUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 73K2MXE2TP;
+				INFOPLIST_FILE = ArcheryAssistantUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.exusai.ArcheryAssistantUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ArcheryAssistant;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		12E2D10E244699DC002FD73A /* Build configuration list for PBXProject "ArcheryAssistant" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12E2D13B244699E4002FD73A /* Debug */,
+				12E2D13C244699E4002FD73A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		12E2D13D244699E4002FD73A /* Build configuration list for PBXNativeTarget "ArcheryAssistant" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12E2D13E244699E4002FD73A /* Debug */,
+				12E2D13F244699E4002FD73A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		12E2D140244699E4002FD73A /* Build configuration list for PBXNativeTarget "ArcheryAssistantTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12E2D141244699E4002FD73A /* Debug */,
+				12E2D142244699E4002FD73A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		12E2D143244699E4002FD73A /* Build configuration list for PBXNativeTarget "ArcheryAssistantUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12E2D144244699E4002FD73A /* Debug */,
+				12E2D145244699E4002FD73A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 12E2D10B244699DC002FD73A /* Project object */;
+}

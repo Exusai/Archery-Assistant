@@ -1,0 +1,6 @@
+framework module Pods_ArcheryAssistant {
+  umbrella header "Pods-ArcheryAssistant-umbrella.h"
+
+  export *
+  module * { export * }
+}

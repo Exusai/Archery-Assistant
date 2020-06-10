@@ -1,0 +1,6 @@
+framework module Pods_ArcheryAssistantTests {
+  umbrella header "Pods-ArcheryAssistantTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
